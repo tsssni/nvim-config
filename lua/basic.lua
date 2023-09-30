@@ -40,3 +40,4 @@ vim.opt.shortmess = "c"
 vim.opt.pumheight = 10
 vim.opt.showtabline = 2
 vim.opt.showmode = false
+vim.opt.exrc = true
