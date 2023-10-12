@@ -15,8 +15,8 @@ map("n", "<A-j>", "<C-w>j", opt)
 map("n", "<A-k>", "<C-w>k", opt)
 map("n", "<A-l>", "<C-w>l", opt)
 map("n", "<A-Left>", ":vertical resize +10<CR>", opt)
-map("n", "<A-Up>", ":resize +5<CR>", opt) 
-map("n", "<A-Down>", ":resize -5<CR>", opt)
+map("n", "<A-Up>", ":resize -5<CR>", opt) 
+map("n", "<A-Down>", ":resize +5<CR>", opt)
 map("n", "<A-Right>", ":vertical resize -10<CR>", opt)
 
 -- terminal
