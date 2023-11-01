@@ -13,6 +13,7 @@ return {
           highlight = "Directory",
           text_align = "left",
         }},
+        show_buffer_close_icons = false,
       },
     })
   end

@@ -31,11 +31,6 @@ map("t", "<A-Down>", ":resize -5<CR>", opt)
 map("v", "J", ":move '>+1<CR>gv-gv", opt)
 map("v", "K", ":move '<-2<CR>gv-gv", opt)
 
--- switch file
-map("n", "q", ":q<CR>", opt)
-map("n", "w", ":w<CR>", opt)
-map("n", "<Esc>", ":qa<CR>", opt)
-
 -- nvim tree
 map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
 
