@@ -6,7 +6,6 @@ return {
   config = function()
     local dap = require("dap")
     local dap_ui = require("dapui")
-    
     dap.listeners.after.event_initialized["dapui_config"] = function()
       dap_ui.open()
     end

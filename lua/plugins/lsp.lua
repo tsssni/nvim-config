@@ -7,9 +7,23 @@ return {
   config = function()
     require("mason").setup({})
     require("mason-lspconfig").setup({})
-    lsp_config = require("lspconfig")
+    vim.cmd(":MasonUpdate")
+
+    local registry = require("mason-registry")
+    local function check_installation(name)
+      if not registry.is_installed(name) then
+        vim.cmd(":MasonInstall " + name)
+      end
+    end
+    check_installation("lua-language-server")
+    check_installation("clangd")
+    check_installation("cmake-language-server")
+    check_installation("codelldb")
+
+    local lsp_config = require("lspconfig")
     lsp_config.clangd.setup({})
     lsp_config.cmake.setup({})
+    lsp_config.lua_ls.setup({})
     vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
     vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
     vim.keymap.set("n", "gR", vim.lsp.buf.rename, {})
