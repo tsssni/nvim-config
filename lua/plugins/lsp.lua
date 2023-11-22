@@ -12,7 +12,7 @@ return {
     local registry = require("mason-registry")
     local function check_installation(name)
       if not registry.is_installed(name) then
-        vim.cmd(":MasonInstall " + name)
+        vim.cmd(":MasonInstall "..name)
       end
     end
     check_installation("lua-language-server")
