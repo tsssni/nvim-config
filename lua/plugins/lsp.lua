@@ -7,18 +7,21 @@ return {
   config = function()
     require("mason").setup({})
     require("mason-lspconfig").setup({})
-    vim.cmd(":MasonUpdate")
-
+    
     local registry = require("mason-registry")
-    local function check_installation(name)
-      if not registry.is_installed(name) then
-        vim.cmd(":MasonInstall "..name)
+    local function check_installation(...)
+      if not registry.is_installed(...) then
+        for _, v in ipairs{...} do
+          vim.cmd(":MasonInstall "..v)
+        end
       end
     end
-    check_installation("lua-language-server")
-    check_installation("clangd")
-    check_installation("cmake-language-server")
-    check_installation("codelldb")
+    check_installation(
+      "lua-language-server",
+      "clangd",
+      "cmake-language-server",
+      "codelldb"
+    )
 
     local lsp_config = require("lspconfig")
     lsp_config.clangd.setup({})
