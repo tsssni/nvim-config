@@ -7,8 +7,9 @@
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
   "cmp_luasnip": { "branch": "master", "commit": "18095520391186d634a0045dacaa346291096566" },
   "dashboard-nvim": { "branch": "master", "commit": "6b112d40ccf2a7aa6605ce325338c66612c4f7ec" },
-  "lazy.nvim": { "branch": "main", "commit": "7ca3bdb566c3ba4492f2d22b37c2c9e26f09470f" },
+  "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
   "lualine.nvim": { "branch": "master", "commit": "45e27ca739c7be6c49e5496d14fcf45a303c3a63" },
+  "lush.nvim": { "branch": "main", "commit": "f76741886b356586f9dfe8e312fbd1ab0fd1084f" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "81e30dd629de24cbb26d08073ee938ab40006695" },
   "mason.nvim": { "branch": "main", "commit": "d66c60e17dd6fd8165194b1d14d21f7eb2c1697a" },
   "nvim-cmp": { "branch": "main", "commit": "5dce1b778b85c717f6614e3f4da45e9f19f54435" },
@@ -21,5 +22,5 @@
   "plenary.nvim": { "branch": "master", "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b" },
   "ripgrep": { "branch": "master", "commit": "f608d4d9b3ab210b7e6964ca7d1d7dc9c077329e" },
   "telescope.nvim": { "branch": "master", "commit": "84d53dfdbefbdf84e861a288abc71ef8ccafd04e" },
-  "tokyonight.nvim": { "branch": "main", "commit": "8e670218651eaf02bf61c68ecdfdaa572bc14b47" }
+  "tsssni-theme.nvim": { "branch": "master", "commit": "c0a74f8a51cf0b4999e2b1ac239d9d6af123b1c4" }
 }
