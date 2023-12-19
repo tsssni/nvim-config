@@ -23,6 +23,11 @@ return {
             group = "DashboardShortCut",
           },
         },
+        footer = {
+          "                                                ",
+          "何気ない日常で、ほんの少しの奇跡を見つける物語。",
+          "                                                ",
+        },
       },
     })
   end,
