@@ -1,1 +1,1 @@
-vim.cmd("colorscheme tsssni-theme")
+vim.cmd'colorscheme tsssni-theme'

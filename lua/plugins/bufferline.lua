@@ -1,20 +1,20 @@
 return {
-  "akinsho/bufferline.nvim",
+  'akinsho/bufferline.nvim',
   dependencies = {
-    "nvim-tree/nvim-web-devicons",
+    'nvim-tree/nvim-web-devicons',
   },
   config = function()
-    require("bufferline").setup({
+    require'bufferline'.setup{
       options = {
-        diagnostics = "nvim_lsp",
+        diagnostics = 'nvim_lsp',
         offsets = {{
-          filetype = "NvimTree",
-          text = "File Explorer",
-          highlight = "Directory",
-          text_align = "left",
+          filetype = 'NvimTree',
+          text = 'File Explorer',
+          highlight = 'Directory',
+          text_align = 'left',
         }},
         show_buffer_close_icons = false,
       },
-    })
+    }
   end
 }

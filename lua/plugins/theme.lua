@@ -1,6 +1,6 @@
 return {
-  "tsssni/tsssni-theme.nvim",
+  'tsssni/tsssni-theme.nvim',
   dependencies = {
-    "rktjmp/lush.nvim",
+    'rktjmp/lush.nvim',
   }
 }
