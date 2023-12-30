@@ -10,6 +10,16 @@ return {
         enable = true,
         update_root = false,
         ignore_list = {}
+      },
+      renderer = {
+        icons = {
+          glyphs = {
+            git = {
+              unstaged = '󰅖',
+              renamed = '',
+            }
+          }
+        }
       }
     }
   end

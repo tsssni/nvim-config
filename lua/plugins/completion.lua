@@ -32,7 +32,7 @@ return {
         ['<C-k>'] = cmp.mapping.select_prev_item(),
         ['<CR>'] = cmp.mapping.confirm{
           select = true,
-          behavior = cmp.ConfirmBehavior.Replace
+          behavior = cmp.ConfirmBehavior.Replace,
         },
       }
     }
