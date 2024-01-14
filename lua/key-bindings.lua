@@ -20,12 +20,9 @@ map('n', '<A-Down>', ':resize +5<CR>', opt)
 map('n', '<A-Right>', ':vertical resize -10<CR>', opt)
 
 -- terminal
-map('n', ',', '<leader>', opt)
 map('n', '<leader>t', ':sp | terminal<CR>', opt)
 map('n', '<leader>vt', ':vsp | terminal<CR>', opt)
-map('t', '<Esc>', '<C-\\><C-n>', opt)
-map('t', '<A-Up>', ':resize +5<CR>', opt)
-map('t', '<A-Down>', ':resize -5<CR>', opt)
+map('t', '<C-Esc>', '<C-\\><C-n>', opt)
 
 -- visual indentation
 map('v', 'J', ':move \'>+1<CR>gv-gv', opt)
